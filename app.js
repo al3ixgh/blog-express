@@ -2,7 +2,7 @@ const express = require('express');
 const Blog = require('./models/blog');
 
 require('./db/mongoose')
-const blogRouter = require('./routers/test')
+const blogRouter = require('./routers/blog')
 
 const port = process.env.PORT
 
@@ -31,7 +31,7 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/form', (req, res)=>{
-  res.render('formulario', {titulo: 'Crear test'})
+  res.render('formulario', {titulo: 'Crear blog'})
 })
 
 app.use(express.json())
