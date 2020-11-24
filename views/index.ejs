@@ -10,11 +10,11 @@
             <% if (blogs.length > 0) { %>
             <% blogs.forEach(blog => { %>
             <h3 class="title"><%= blog.title %></h3>
-            <ol>
+            <ul>
+                <li><label for="snippet"> <%= blog.snippet %> </label></li>
                 <li><label for="body"> <%= blog.body %> </label></li>
-                <li><label for="artista"> <%= blog.snippet %> </label></li>
                 
-            </ol>
+            </ul>
             <% }) %>
             <% } else { %>
             <p>No hay nada que mostrar...</p>
