@@ -5,25 +5,22 @@
         
   
 
-        <!-- <div class="tests content">
-            <h2>Todos los Tests</h2>
-            <% if (tests.length > 0) { %>
-            <% tests.forEach(test => { %>
-          
-           <h3 class="title"><%= test.pregunta %></h3>
+        <div class="blogs content">
+            <h2>Los blogs</h2>
+            <% if (blogs.length > 0) { %>
+            <% blogs.forEach(blog => { %>
+            <h3 class="title"><%= blog.title %></h3>
             <ol>
-                <li><%= test.respuesta1 %></li>
-                <li><%= test.respuesta2 %></li>
-                <li><%= test.respuesta3 %></li>
-                <li><%= test.respuesta4 %></li>
+                <li><label for="body"> <%= blog.body %> </label></li>
+                <li><label for="artista"> <%= blog.artista %> </label></li>
+                
             </ol>
-            
             <% }) %>
             <% } else { %>
             <p>No hay nada que mostrar...</p>
             <% } %>
-          
-        </div> -->
+
+        </div>
           
 
     </section>

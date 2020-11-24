@@ -1,7 +1,6 @@
 {
   "name": "blog-express",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -18,5 +17,14 @@
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al3ixgh/blog-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/al3ixgh/blog-express/issues"
+  },
+  "homepage": "https://github.com/al3ixgh/blog-express#readme",
+  "description": ""
 }

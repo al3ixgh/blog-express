@@ -7,7 +7,7 @@ const Blog = mongoose.model('Blog', {
         trim: true,
         lowercase: true
     },
-    snippet:{
+    artista:{
         type: String,
         required: true,
         trim: true,
