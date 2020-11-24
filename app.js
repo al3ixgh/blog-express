@@ -34,7 +34,7 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/form', (req, res) => {
-  res.render('form', { titulo: 'Form' });
+  res.render('formulario', { titulo: 'crear blog' });
 });
 
 
